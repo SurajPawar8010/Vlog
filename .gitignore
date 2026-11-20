@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large media & rendered outputs (exceeds GitHub 100MB file limit)
+output/*
+!output/.gitkeep
+uploads/*
+!uploads/.gitkeep
+voiceovers/*
+!voiceovers/.gitkeep
+sample_clips/*
+!sample_clips/.gitkeep
+
+# Local state & credentials
+data/instagram_session.json
+data/client_secret.json
+data/token.json
+.env
+.env.*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
